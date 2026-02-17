@@ -1,0 +1,16 @@
+tech_transition_bot/
+├── .env                     # BOT_TOKEN
+├── .gitignore
+├── requirements.txt         # зависимости (без fpdf2)
+├── main.py                  # точка входа
+├── config.py
+├── keyboards.py
+├── states.py
+├── data.py                  # полная таблица профессий
+└── handlers/
+    ├── __init__.py
+    ├── start.py
+    ├── vug.py
+    ├── situations.py
+    ├── result.py
+    └── roadmap.py
